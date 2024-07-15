@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+}
+
+/* shared styles */
+
+.primary-button{
+    background-color: rgba(229, 84, 115, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 40px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* hero-section styles */
+
+.hero-section{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.hero-texts{
+    max-width: 40%;
+}
+
+.hero-title{
+    color: rgba(39, 39, 39, 1);
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0 auto;
+}
+
+.hero-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.hero-image{
+    max-width: 40%; 
+}
+
+.hero-image>img{
+    max-width: 100%;
+}
+
+/* responsive styles for small devices */
+
+@media screen and (max-width: 576px) {
+
+    /* hero-section styles for small devices */
+    
+    .hero-section{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .hero-texts{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-title{
+        font-size: 2rem;
+    }
+
+    .hero-description{
+        text-align: justify;
+        padding: 20px;
+    }
+
+    .hero-image{
+        max-width: 100%; 
+    }
+}
