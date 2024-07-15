@@ -237,4 +237,13 @@
         flex-direction: column;
         gap: 80px;
     }
+
+    /* deal-section styles for small devices */
+
+    .deal-section{
+        flex-direction: column;
+        gap: 60px;
+        margin: 80px auto;
+        padding: 40px 0px;
+    }
 }
