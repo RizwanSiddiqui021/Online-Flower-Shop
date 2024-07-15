@@ -6,6 +6,19 @@
 
 /* shared styles */
 
+.section-title{
+    color: rgba(39, 39, 39, 1);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.section-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
 .primary-button{
     background-color: rgba(229, 84, 115, 1);
     border: none;
@@ -54,12 +67,73 @@
     max-width: 100%;
 }
 
+/* featured-section styles */
+
+.featured-section{
+    max-width: 1440px;
+    margin: 180px auto;
+}
+
+.featured-texts{
+    text-align: center;
+}
+
+.flowers-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower1,
+.flower2,
+.flower3{
+    text-align: center;
+    width: 460px;
+    height: 538px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.flower1{
+    border: none;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower2{
+    border: none;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.flower3{
+    border: none;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.flower-image>{
+    width: 100%;
+}
+
+.see-more>a{
+    color: rgba(39, 39, 39, 1);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 /* responsive styles for small devices */
 
 @media screen and (max-width: 576px) {
 
     /* hero-section styles for small devices */
-    
+
     .hero-section{
         flex-direction: column;
         gap: 50px;
