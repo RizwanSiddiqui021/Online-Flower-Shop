@@ -323,4 +323,21 @@
     .insta-description{
         margin-bottom: 60px;
     }
+
+    /* latest-deals-section styles for small devices */
+
+    .latest-deals-section{
+        background-image: none;
+        background-color: rgba(39, 39, 39, 0.05);
+        margin: 80px auto;
+    }
+
+    .latest-deals-form{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .email-field{
+        width: 350px;
+    }
 }
