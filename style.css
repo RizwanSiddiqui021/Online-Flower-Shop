@@ -184,6 +184,22 @@
     margin-bottom: 32px;
 }
 
+/* insta-section styles */
+
+.insta-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.insta-texts{
+    text-align: center;
+}
+
+.flower-gallery{
+    display: flex;
+    justify-content: space-around;
+}
+
 /* responsive styles for small devices */
 
 @media screen and (max-width: 576px) {
