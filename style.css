@@ -162,6 +162,28 @@
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+/* deal-section styles */
+
+.deal-section{
+    max-width: 1920px;
+    margin: 180px auto;
+    padding: 100px 0px;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+}
+
+.deal-texts{
+    text-align: center;
+}
+
+.deal-description{
+    margin-bottom: 32px;
+}
+
 /* responsive styles for small devices */
 
 @media screen and (max-width: 576px) {
