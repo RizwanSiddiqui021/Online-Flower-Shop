@@ -134,6 +134,33 @@
     font-weight: 700;
 }
 
+/* services-section styles */
+
+.services-section{
+    max-width: 1440px;
+    margin: 0px auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding-top: 80px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-name>h4{
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 /* responsive styles for small devices */
 
 @media screen and (max-width: 576px) {
