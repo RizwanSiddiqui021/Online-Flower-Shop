@@ -250,6 +250,46 @@
     padding-left: 22px;
 }
 
+/* footer-section styles */
+
+.footer-section{
+    max-width: 1920px;
+    height: 450px;
+    margin: 0 auto;
+    background-color: rgba(17, 16, 16, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-texts{
+    text-align: center;
+}
+
+.footer-title{
+    color: rgba(255, 255, 255, 1);
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+#flower{
+    color: rgba(229, 84, 115, 1);
+}
+
+.footer-description{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /* responsive styles for small devices */
 
 @media screen and (max-width: 576px) {
